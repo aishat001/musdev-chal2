@@ -28,7 +28,6 @@ body {
     background-color: #f0f3faef;
 }
 .grey {color: #a1a3b0;width:-webkit-fill-available;}
-.grey_b { background-color: #a1a3b0;}
 .green_b { background-color: green;}
 .red{color: rgba(180, 34, 34, 0.959);}
 .green {color: green;margin-right: 5px;}
@@ -77,6 +76,8 @@ div.toggles {
     border-radius: 50%;
     background-color: #252b43;
 }
+.grey_b { background-color: #a1a3b0;}
+
 .auto {
     margin-top: 2px;
     margin-left: auto;
