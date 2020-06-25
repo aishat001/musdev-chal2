@@ -11,7 +11,7 @@ document.querySelector(".toggles").addEventListener("click", function () {
         column_.forEach( function (el) {
             el.classList.toggle("col-bgColor");
       })
-      document.querySelector(".toggles").classList.toggle("green_b");
-      document.querySelector(".containerBg").classList.toggle("toggle-body-color");
-
+      document.querySelector(".toggles").classList.toggle("grey_b");
+      document.querySelector(".containerBg").style.display = "flex";
+      document.querySelector(".containerBg").classList.toggle("toggle-container-color");
   });
