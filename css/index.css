@@ -4,7 +4,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-
+    font-size:16px;
 }
 body {
     background-color: #1d2029;
@@ -32,7 +32,7 @@ body {
 .red{color: rgba(180, 34, 34, 0.959);}
 .green {color: green;margin-right: 5px;}
 .letter-space {letter-spacing: 2.5px;}
-.big-h2 {font-size: 45px;}
+.big-h2 {font-size: 43px;}
 
 
 
@@ -168,6 +168,11 @@ div.toggles {
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 22px;
+    }
+}
 @media screen and (max-width:700px) {
     .col,
      .col_{
@@ -180,6 +185,9 @@ div.toggles {
 }
 
 @media screen and (max-width:475px) {
+    html {
+        font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
     .containerBg {
         height: 16rem;
     }
